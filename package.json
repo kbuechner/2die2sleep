@@ -1,0 +1,22 @@
+{
+  "name": "2die2sleep",
+  "version": "1.0.0",
+  "description": "representing the many brutal deaths in shakespeare's plays",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbuechner/2die2sleep.git"
+  },
+  "keywords": [
+    "shakespeare"
+  ],
+  "author": "kbuechner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbuechner/2die2sleep/issues"
+  },
+  "homepage": "https://github.com/kbuechner/2die2sleep#readme"
+}
