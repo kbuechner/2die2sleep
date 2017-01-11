@@ -18,7 +18,7 @@ var Method = db.define('method', {
     weapon: {
         type: Sequelize.STRING,
         allowNull: true
-    }
+    }bout
 });
 
 module.exports = Death;
