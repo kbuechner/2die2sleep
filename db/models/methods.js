@@ -7,3 +7,18 @@ so this file is actually most likely a reminder unless I want to get fancy with 
 
 peace out girl scout 
 */
+'use strict';
+
+var Sequelize = require('sequelize');
+
+var db = require('../_db');
+//eugh I super hate the _db thing I should change it
+
+var Method = db.define('method', {
+    weapon: {
+        type: Sequelize.STRING,
+        allowNull: true
+    }
+});
+
+module.exports = Death;
